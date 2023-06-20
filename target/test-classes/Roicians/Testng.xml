@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNg Roicians">
+	<test name="TestngOne" allow-return-values="true">
+		<classes>
+			<class name="Roicians.TestngOne" />
+		</classes>
+	</test>
+	<test name="Testng" allow-return-values="true">
+		<classes>
+			<class name="Roicians.Testng" />
+		</classes>
+	</test>
+<test name="Verification" allow-return-values="true">
+		<classes>
+			<class name="Roicians.Verification" />
+		</classes>
+	</test>
+
+</suite>

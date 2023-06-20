@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg Roicians]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestngOne(failed)">
+    <classes>
+      <class name="Roicians.TestngOne">
+        <methods>
+          <include name="driversetup"/>
+          <include name="afterMethod"/>
+          <include name="gettitle"/>
+          <include name="gmaildisplay"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- Roicians.TestngOne -->
+    </classes>
+  </test> <!-- TestngOne(failed) -->
+  <test thread-count="5" name="Testng(failed)">
+    <classes>
+      <class name="Roicians.Testng">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="invalidcase"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- Roicians.Testng -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [TestNg Roicians] -->
